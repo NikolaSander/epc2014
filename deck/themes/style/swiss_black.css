@@ -1,0 +1,377 @@
+/* Resets and base styles from HTML5 Boilerplate */
+div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+ins {
+  background-color: #161617;
+  color: #F4EBCE;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #161617;
+  color: #F4EBCE;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid ;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+select, input, textarea, button {
+  font: 99% sans-serif;
+}
+
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover, a:active {
+  outline: none;
+}
+
+ul, ol {
+  margin-left: 2em;
+  vertical-align: top;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+nav ul, nav li {
+  margin: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+small {
+  font-size: 85%;
+}
+
+strong, th {
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+textarea {
+  overflow: auto;
+}
+
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+  vertical-align: bottom;
+}
+
+label,
+input[type="button"],
+input[type="submit"],
+input[type="image"],
+button {
+  cursor: pointer;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+input:invalid, textarea:invalid {
+  border-radius: 1px;
+  -moz-box-shadow: 0px 0px 5px red;
+  -webkit-box-shadow: 0px 0px 5px red;
+  box-shadow: 0px 0px 5px red;
+}
+input:invalid .no-boxshadow, textarea:invalid .no-boxshadow {
+  background-color: #161617;
+}
+
+button {
+  width: auto;
+  overflow: visible;
+}
+
+select, input, textarea {
+  color: #F4EBCE;
+}
+
+a {
+  color: #F4EBCE;
+}
+a:hover, a:focus {
+  color: #036;
+}
+a:link {
+  -webkit-tap-highlight-color: #F4EBCE;
+}
+
+/* End HTML5 Boilerplate adaptations */
+h1 {
+  font-size: 2.3em;
+  text-align: center;
+  padding-top: 3em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.9em;
+  font-weight: bold;
+  padding-top: 0.8em; 
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 0 0 .66666em 0;
+/* border-bottom: 4px solid; */
+}
+
+h4 {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 0.8em; 
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  font-size: 1em;
+  padding-top: 0.5em; 
+}
+
+h6 {
+  text-align: center;
+  font-size: 0.5em;
+}
+
+p {
+  font-size: 1.15em;
+}
+
+img, iframe, video {
+  display: block;
+  max-width: 100%;
+}
+
+video, iframe, img {
+  display: block;
+  margin: 0 auto;
+}
+
+p, blockquote, iframe, img, ul, ol, pre, video {
+  margin-bottom: 0.5em;
+  color: #F4EBCE;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 1em;
+  border: 1px solid #888;
+  color: #F4EBCE;
+}
+
+em {
+  color: #FF7F00;
+}
+
+li {
+  padding: .25em 0;
+  vertical-align: middle;
+  color: #F4EBCE;
+}
+li > ol, li > ul {
+  margin-bottom: inherit;
+}
+
+.deck-container {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #F4EBCE;
+}
+
+.slide {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+h1 {
+  color: #F4EBCE;
+}
+
+h2 {
+  color: #FF7F00;
+}
+
+h3 {
+  color: #FF7F00;
+  border-bottom-color: #5A5A5E;
+}
+
+h4 {
+  color: #F4EBCE;
+}
+
+h5 {
+  color: #F4EBCE;
+}
+
+h6 {
+  color: #444444;
+}
+
+pre {
+  border-color: #5A5A5E;
+}
+
+code {
+  color: #F4EBCE;
+}
+
+blockquote {
+  font-size: 1.4em;
+  font-style: italic;
+  padding: 0.6em 0.6em;
+  margin-left:2.5em;
+  margin-right:2.5em;
+  color: #F4EBCE;
+  background-color: #000;
+}
+
+blockquote cite {
+  font-size: .5em;
+  font-style: normal;
+  font-weight: bold;
+  color: #F4EBCE;
+}
+
+::-moz-selection {
+  background: #FF6600;
+  color: #808080;
+}
+
+::selection {
+  background: #FF6600;
+  color: #808080;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+  color: #FF6600;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* Background color: mild black #161617 */
+.deck-container {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75em;
+  background: #161617;
+}
+.deck-container > .slide {
+  padding: 0 48px;
+}
+
+.slide .deck-before, .slide .deck-previous {
+  opacity: 0.6;
+}
+.slide .deck-before:not(.deck-child-current) .deck-before, .slide .deck-before:not(.deck-child-current) .deck-previous, .slide .deck-previous:not(.deck-child-current) .deck-before, .slide .deck-previous:not(.deck-child-current) .deck-previous {
+  opacity: 1;
+}
+.slide .deck-child-current {
+  opacity: 1;
+}
+
+.deck-prev-link, .deck-next-link {
+  background: ##707070;
+  font-family: serif;
+}
+.deck-prev-link, .deck-prev-link:hover, .deck-prev-link:focus, .deck-prev-link:active, .deck-prev-link:visited, .deck-next-link, .deck-next-link:hover, .deck-next-link:focus, .deck-next-link:active, .deck-next-link:visited {
+  color: #fff;
+}
+.deck-prev-link:hover, .deck-prev-link:focus, .deck-next-link:hover, .deck-next-link:focus {
+  background: #FF6600;
+  text-decoration: none;
+}
+
+.deck-status {
+  font-size: 0.6666em;
+}
+
+.deck-menu .slide {
+  background: #eee;
+}
+.deck-menu .deck-current, .no-touch .deck-menu .slide:hover {
+  background: #fff;
+}

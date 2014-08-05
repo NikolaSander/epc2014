@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>Presentation EPC Budapest</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="deck/core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="deck/extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="deck/extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="deck/extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="deck/extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="deck/extensions/scale/deck.scale.css"> 
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="deck/themes/style/swiss_black.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="deck/themes/transition/fade.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="deck/core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="deck/modernizr.custom.js"></script>
+
+  <!-- Required D3 -->
+	<link href="d3/dist/app-v1.css" rel="stylesheet" media="all">
+	<!--[if lt IE 9]><script src=javascripts/html5shiv-printshiv.js></script><![endif]-->
+	<script src="d3/dist/app-v1.js"></script>
+  
+ <!-- Twitter colour theme -->
+	<meta name="twitter:widgets:link-color" content="#FF7F00">
+	<meta name="twitter:widgets:theme" content="dark">
+	
+ <!-- Montserrat Google Font for header -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="deck-container">
+    <!-- Begin slides. Use the class of "slide". -->
+ 	<section class="slide">
+		<h2 style="padding-top:1.5em">The patterns and trends in global international migration flows since 1990: a revisit with new data and methods</h2>
+		<h4 style="padding-top:1em">Nikola Sander<sup>1</sup>, Phil Rees<sup>2</sup> & Guy Abel<sup>1</sup></h4>
+		<h5><sup>1</sup>Wittgenstein Centre | Vienna Institute of Demography</h5>
+		<h5><sup>2</sup>University of Leeds</h5>
+		<h5 style="padding-top:1.2em">European Population Conference, June 2014</h5>
+		<h5>View the slides at <a href="http://nikolasander.github.io/epc2014" target="_blank">http://nikolasander.github.io/epc2014</a></h5>
+    </section>
+	
+	<section class="slide">
+		<h4 style="padding-top:4.5em; text-align:center"><em>Global migration has accelerated and diversified!</em></h4>
+		<h4 style="text-align:center">In the age of globalisation, migration has become:</h4>
+		<ul>
+		<p style="text-align:center">...more intense</p>
+		<p style="text-align:center">...less spatially focussed</p>
+		<p style="text-align:center">...less unidirectional</p>
+		</ul>
+    </section>
+	
+	<section class="slide">
+		<h4 style="padding-top:4.5em; text-align:center"><em>Limited empirical testing of these assumptions!</em></h4>
+		<h4 style="text-align:center">Largely due to a lack of global flow data.</h4>
+    </section>
+
+	<section class="slide">
+		<h4 style="padding-top:4.5em; text-align:center">So, what data are available on global migration flows?</h4>
+    </section>
+	
+	
+    <section class="slide">
+		<h4 style="padding-top:3.5em">Most widely available are data on migrant stocks</h4>
+		<p>Captured in censuses, registers and surveys</p>
+		<p>Comparing country of birth with country of current residence</p>
+		<p><em>An accumulative measure of migration over several decades that cannot capture contemporary trends</em></p>
+    </section>
+	
+	<section class="slide">
+		<h4 style="padding-top:3.5em">Migrant flow data much less widely available</h4>
+		<p>Censuses only capture inflows, registers use varying definitions</p>
+		<p>Harmonisation exist for European flows (IMEM)</p>
+		<p>Outside Europe only unharmonised data for selected countries</p>
+    </section>
+	
+	<section class="slide">
+		<h4 style="padding-top:3.5em">International migration &#8621; Internal migration</h4>
+		<p>Studies on international migration focus on migration systems, gravity models and net migration.</p>
+		<h5><a href="http://www.researchgate.net/publication/233345434_Mind_the_Gap!_Integrating_Approaches_to_Internal_and_International_Migration" target="_blank">
+		King & Skeldon (2010): Mind the Gap! Integrating Approaches to Internal and International Migration</a></h5>
+	</section>
+	
+	
+ 	<section class="slide">
+		<h4 style="padding-top:3.5em">Literature on the spatial structure of internal migration</h4>
+		<ul>
+		<p><a href="https://www.researchgate.net/publication/4993127_Cross-national_comparison_of_internal_migration_issues_and_measures?ev=prf_pub" target="_blank">Bell et al., 2002</a></p>
+		<p><a href="http://www.jstor.org/discover/10.2307/2584661?uid=3738216&uid=2129&uid=2&uid=70&uid=4&sid=21104373351183" target="_blank">Rees, Bell, Duke-Williams, & Blake, 2000</a></p>
+		<p><a href="http://www.ncbi.nlm.nih.gov/pubmed/12293592" target="_blank">Rogers & Raymer, 1998</a></p>
+		<p><a href="http://www.ncbi.nlm.nih.gov/pubmed/9169281" target="_blank">Plane & Mulligan, 1997</a></p>
+		</ul>
+    </section>
+	
+	
+	<section class="slide">
+		<h4 style="padding-top:3.5em; text-align:center">Research Question:</h4>
+		<p style="text-align:center">Has migration indeed become more intense, less spatially focussed and less unidirectional?</p>
+		<p style="padding-top:1em;text-align:center">Bridging the gap by applying new migration flow estimates to indicators proposed for internal migration.</p>
+    </section>
+	
+	
+	<section class="slide">
+		<h4 style="padding-top:2.5em;text-align:center">Estimating flows from stocks</h4>
+		<center><table><tr>
+		<td>
+		<p style="padding-top:0.5em">UN bilateral stock data</p>
+		<p>lifetime transitions</p>
+		<p>1990, 2000, 2010</p>
+		<p>more than 200 countries</p></td>
+		<td style="padding-top:2em;padding-left:1.5em"><h3>&#10140; </h3></td>
+		<td style="padding-left:1.5em">
+		<p style="padding-top:0.5em">New global flow estimates</p>
+		<p>5-year transitions</p>
+		<p>1990-95 to 2005-10</p>
+		<p>196 countries</p></td>
+		</tr></table>
+		<img src="images/science_title.png" style="padding-top:0.5em;max-width:700px">
+		</center>
+	</section>	
+		
+	<section class="slide">
+		<center>
+		<h4>Migration within and between world regions in<br> <em>1990-1995</em></h4>
+		<img src="images/postcard_1990.png">
+		</center>
+    </section>
+	
+	<section class="slide">
+		<center>
+		<h4>Migration within and between world regions in<br> <em>1995-2000</em></h4>
+		<img src="images/postcard_1995.png">
+		</center>
+    </section>
+	
+	<section class="slide">
+		<center>
+		<h4>Migration within and between world regions in<br> <em>2000-2005</em></h4>
+		<img src="images/postcard_2000.png">
+		</center>
+    </section>
+	
+	<section class="slide">
+		<center>
+		<h4>Migration within and between world regions in<br> <em>2005-2010</em></h4>
+		<img src="images/postcard_2005.png">
+		</center>
+    </section>
+		
+		
+	<section class="slide">
+		<h4 style="padding-top:2.5em;text-align:center">Our interdisciplinary approach:</h4>
+		<p>Applying five measures put forward by <a href="https://www.researchgate.net/publication/4993127_Cross-national_comparison_of_internal_migration_issues_and_measures?ev=prf_pub" target="_blank">
+		Bell et al.(2002)</a> to capture four key dimensions of spatial structure:</h5>
+		<p style="padding-left:1.5em">&#8599;  <em>Intensity:</em> Total migrants; Crude Migration Rate</p>
+		<p style="padding-left:1.5em">&#8600; <em>Connectivity:</em> Coefficient of Variation (CV)</p>
+		<p style="padding-left:1.5em">&#8600; <em>Impact:</em> Migration Effectiveness Index (MEI)</p>
+		<p style="padding-left:1.5em">&#8599; <em>Distance:</em> Median distance moved</p>
+		<h5 style="padding-top:2em"><a href="https://www.researchgate.net/publication/4993127_Cross-national_comparison_of_internal_migration_issues_and_measures?ev=prf_pub" target="_blank">
+		Bell et al.(2002)</a>: Cross-national comparison of internal migration: issues and measures. //  
+		Internal Migration Around the Globe <a href="http://www.gpem.uq.edu.au/image" target="_blank">(IMAGE)</a> Project</h5>
+    </section>
+
+	
+	<section class="slide">
+		<center>
+		<table><tr>
+		<td style="padding-top:0.8em">
+		<em>Intensity:</em><br><small>Total migrants in mio.</small><img src="images/Global_Intensity_totals.png" style="max-height:320px"></h5>
+		<h5><em>Impact:</em><br><small>Migration Effectiveness Index</small><img src="images/Global_Impact_MEI.png" style="max-height:320px"></h5>
+		</td>
+		<td style="padding-top:0.8em;padding-left:1.5em">
+		<em>Intensity:</em><br><small>Crude migration rate</small><img src="images/Global_Intensity_CMP.png" style="max-height:320px">
+		<h5><em>Distance:</em><br><small>Median distance in km</small><img src="images/Global_Distance_median.png" style="max-height:320px">
+		</td>
+		<td style="padding-top:0.8em;padding-left:1.5em">
+		<em>Connectivity:</em><br><small>Coefficient of Variation</small><img src="images/Global_Connectivity_CV.png" style="max-height:320px"></h5>
+		</td>
+		</tr></table></center>
+	</section>	
+
+	
+		
+	<section class="slide">
+		<center>
+		<h4><em>Intensity: </em>Crude migration rate</h4>
+		<table><tr>
+		<td>
+		<h5 style="text-align:center"><font color="#FF3300"><small>North America</small><img src="images/CMP_NorthAmerica.png" style="max-height:260px"></h5>
+		<h5 style="text-align:center"><font color="yellow"><small>Latin America</small><img src="images/CMP_LatinAmerica.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#00FF00"><small>Europe</small><img src="images/CMP_Europe.png" style="max-height:260px"></h5>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#CC52CC"><small>Fmr Soviet Union</small><img src="images/CMP_Soviet.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#0099FF"><small>West & South Asia</small><img src="images/CMP_SouthAsia.png" style="max-height:260px"></h5>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#00FFFF"><small>East & SE Asia</small><img src="images/CMP_EastAsia.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#FFA347"><small>Africa</small><img src="images/CMP_Africa.png" style="max-height:260px"></h5>
+		<h5 style="padding-top:1.5em;padding-left:0.5em"><img src="images/postcard_2005.png" style="max-height:250px"></h5>
+		</td>
+		</tr></table></center>
+	</section>	
+
+	<section class="slide">
+		<center>
+		<h4 style="padding-top:4em"><em>Connectivity: </em>Coefficient of Variation</h4><img src="images/Global_Connectivity_CV.png" style="max-height:350px">
+		</center>
+	</section>	
+	
+	<section class="slide">
+		<center>
+		<h4><em>Connectivity: </em>Coefficient of Variation</h4>
+		<table><tr>
+		<td>
+		<h5 style="text-align:center"><font color="#FF3300"><small>North America</small><img src="images/CV_NorthAmerica.png" style="max-height:260px"></h5>
+		<h5 style="text-align:center"><font color="yellow"><small>Latin America</small><img src="images/CV_LatinAmerica.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#00FF00"><small>Europe</small><img src="images/CV_Europe.png" style="max-height:260px"></h5>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#CC52CC"><small>Fmr Soviet Union</small><img src="images/CV_Soviet.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#0099FF"><small>West & South Asia</small><img src="images/CV_SouthAsia.png" style="max-height:260px"></h5>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#00FFFF"><small>East & SE Asia</small><img src="images/CV_EastAsia.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#FFA347"><small>Africa</small><img src="images/CV_Africa.png" style="max-height:260px"></h5>
+		<h5 style="padding-top:1.5em;padding-left:0.5em"><img src="images/postcard_2005.png" style="max-height:250px"></h5>
+		</td>
+		</tr></table></center>
+	</section>	
+	
+	<section class="slide">
+		<center>
+		<h4 style="padding-top:4em"><em>Impact: </em>Migration Effectiveness Index</h4><img src="images/Global_Impact_MEI.png" style="max-height:350px">
+		</center>
+	</section>	
+	
+	<section class="slide">
+		<center>
+		<h4><em>Impact: </em>Migration Effectiveness Index</h4>
+		<table><tr>
+		<td>
+		<h5 style="text-align:center"><font color="#FF3300"><small>North America</small><img src="images/MEI_NorthAmerica.png" style="max-height:260px"></h5>
+		<h5 style="text-align:center"><font color="yellow"><small>Latin America</small><img src="images/MEI_LatinAmerica.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#00FF00"><small>Europe</small><img src="images/MEI_Europe.png" style="max-height:260px"></h5>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#CC52CC"><small>Fmr Soviet Union</small><img src="images/MEI_Soviet.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#0099FF"><small>West & South Asia</small><img src="images/MEI_SouthAsia.png" style="max-height:260px"></h5>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#00FFFF"><small>East & SE Asia</small><img src="images/MEI_EastAsia.png" style="max-height:260px"></h5>
+		</td>
+		<td>
+		<h5 style="padding-left:0.5em;text-align:center"><font color="#FFA347"><small>Africa</small><img src="images/MEI_Africa.png" style="max-height:260px"></h5>
+		<h5 style="padding-top:1.5em;padding-left:0.5em"><img src="images/postcard_2005.png" style="max-height:250px"></h5>
+		</td>
+		</tr></table></center>
+	</section>	
+	
+
+	<section class="slide">
+		<h4 style="padding-top:2.5em">Conclusions</h4>
+		<p style="padding-top:0.3em">
+		<em>New estimates of global migration flows</em> can be downloaded from the Science website.</p>
+		<p>&#8594; e.g. for exploratory analysis and global population projections.</p>
+		<p style="padding-top:1em">
+		In <em>1990-95</em> the spatial structure was quite distinctive.</p>
+		<p>Overall, migration has <em>not</em> become more <em>intense</em>.</p>
+		<p>The <em>spatial focussing</em> of flows has <em>not</em> universally decreased.</p>
+		<p>The <em>impact</em> of migration did <em>not</em> decrease continuously, but shows strong regional variation.</p>
+    </section>
+
+	
+	<section class="slide">
+		<div><p style="text-align:center">"The Global Flow of People" <a href="http://www.global-migration.info" target="_blank">www.global-migration.info</a></p></div>
+		<div id=container class="container">
+	
+        <nav role=navigation>
+          <div id="timeline"></div>
+        </nav>
+		<br>
+        <div id="diagram"></div>
+		</div>
+			
+		  <script>
+			// help
+			(function() {
+			  var help = d3.select('#help');
+
+			  help.on('click', function() {
+				var isActive = help.classed('active');
+
+				help
+				  .classed('active', !isActive)
+				  .transition()
+				  .style('width', isActive ? '30px' : '572px');
+			  });
+
+			  function helpOffset() {
+				var offset = Math.max((document.body.clientWidth - document.getElementById('container').clientWidth) / 2, 0);
+
+				help.style('right', offset + 'px');
+			  }
+			  d3.select(window).on('resize.help-resize', helpOffset);
+			  helpOffset();
+			})();
+		  </script>
+
+		  <script>
+			(function() {
+
+			  var datafile = 'd3/json/migrations.json';
+			  var aLittleBit = Math.PI / 100000;
+
+			  d3.json(datafile, function(data) {
+				var now = 2005;
+				var chart = Globalmigration.chart(data, {
+				  element: '#diagram',
+				  now: now,
+				  animationDuration: 500,
+				  margin: 125,
+				  arcPadding: 0.04,
+				  layout: {
+					threshold: 50000,
+					labelThreshold: 5000,
+					colors: 'cd3d08 ec8f00 6dae29 683f92 b60275 2058a5 00a592 009d3c 378974 ffca00'.split(' ').map(function(c) { return '#' + c; })
+				  }
+				});
+
+				Globalmigration.timeline(chart, {
+				  now: now,
+				  element: '#timeline'
+				});
+
+				chart.draw(now);
+			  });
+			})();
+
+		  </script>
+
+		  <script>
+			(function() {
+			  function loadScript(d,s,l,id){
+				var js,
+				fjs=d.getElementsByTagName(s)[0],
+				p=/^http:/.test(d.location)?'http':'https';
+				if(!id || !d.getElementById(id)){
+				  js=d.createElement(s);
+				  js.id=id;
+				  js.src=p+'://' + l;
+				  fjs.parentNode.insertBefore(js,fjs);
+				}
+			  }
+			})();
+		  </script>
+	</section>
+	
+	<section class="slide">
+		<br><br>
+        <h2 style="color:#F4EBCE;text-align:left">Further details</h2>
+		<br>
+		<p style="text-align:left">Guy Abel & Nikola Sander (2014):<a href="http://www.sciencemag.org/content/343/6178/1520" target="_blank"> Quantifying Global International Migration Flows.</a> <i>Science</i>, Vol. 343, pp.1520-22.</p>
+		<br>
+		<p style="text-align:left">Interactive data visualisation<a href="http://www.global-migration.info" target="_blank">"The Global Flow of People"</a></p>
+		<br>
+		<p style="text-align:left">Thanks to Elin Charles-Edwards and the <a href="http://www.gpem.uq.edu.au/image" target="_blank">IMAGE Project</a> Team for their help with calculating the global indices!</p>
+		<br>
+		<h2 style="color:#F4EBCE;text-align:right">Contact</h2>
+		<p style="text-align:right">nikola.sander@oeaw.ac.at</p>
+		<p style="text-align:right"><a href="https://twitter.com/nikolasander" target="_blank">@nikolasander</a></p>
+    </section>
+	
+
+
+    <!-- End slides. -->
+
+	
+	
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="deck/jquery.min.js"></script>
+<script src="deck/core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="deck/extensions/menu/deck.menu.js"></script>
+<script src="deck/extensions/goto/deck.goto.js"></script>
+<script src="deck/extensions/status/deck.status.js"></script>
+<script src="deck/extensions/navigation/deck.navigation.js"></script>
+<script src="deck/extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
